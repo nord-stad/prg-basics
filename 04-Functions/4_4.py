@@ -1,7 +1,7 @@
 ###
 # Calculates the sum of the digits in a number
 #
-from helpers.validators import read_int
+from validators import read_int
 
 def sum_digits(number):
     number = abs(number)        # ignore the minus sign

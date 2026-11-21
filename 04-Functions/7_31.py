@@ -1,0 +1,12 @@
+from validators import read_int
+
+
+def power(x, n):
+    if n == 0:
+        return 1
+
+    return x * power(x, n - 1)
+
+x = read_int("Enter base x: ")
+n = read_int("Enter exponent n: ")
+print(str(x) + '^' + str(n) + ' =', power(x, n))

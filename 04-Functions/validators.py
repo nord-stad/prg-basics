@@ -1,6 +1,5 @@
 import math
 
-
 def read_int(prompt, min_value = 0, max_value = 9999):
     value = 0
     while True:

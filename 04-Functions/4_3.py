@@ -1,4 +1,4 @@
-from helpers.validators import read_float
+from validators import read_float
 import math
 
 def triangle_area(a, b, c):
